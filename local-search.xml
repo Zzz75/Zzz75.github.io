@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>发布文章图片无法显示</title>
+    <link href="/2024/07/29/2024-7-29-post1/"/>
+    <url>/2024/07/29/2024-7-29-post1/</url>
+    
+    <content type="html"><![CDATA[<p>我用的md格式书写的图片路径</p><p><code>![拉拉][demo/test.png]</code></p><p>结果只显示了<strong>拉拉</strong>两个字，后面就去浏览器寻找原因</p><p>大部分说是需要下载下面这个插件</p><p><code>npm install https://github.com/CodeFalling/hexo-asset-image --save</code></p><p>下载完成后重启服务</p><p><code>hexo g</code></p><p><code>hexo s</code></p><p>发现还是没有显示图片，最后尝试了在 <code>hexo g</code> 前清理了下缓存<code>hexo clean</code> 然后继续重启服务，图片成功显示</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>问题</tag>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>测试文章</title>
     <link href="/2024/07/29/demo/"/>
     <url>/2024/07/29/demo/</url>
