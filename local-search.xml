@@ -4,6 +4,29 @@
   
   
   <entry>
+    <title>valine评论发不了</title>
+    <link href="/2024/07/31/valine%E8%AF%84%E8%AE%BA%E5%8F%91%E4%B8%8D%E4%BA%86/"/>
+    <url>/2024/07/31/valine%E8%AF%84%E8%AE%BA%E5%8F%91%E4%B8%8D%E4%BA%86/</url>
+    
+    <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>博主用的是国际版的Leancloud，打开了评论功能后，进入网页测试评论的发布，结果点击提交，评论区没有任何渲染反应，打开network查看到了，comment爆红。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>在网上看到，说是因为 国际版LeanCloud 导致的 (api 地址更换)，只需要将 Valine 配置项 <code>serverURLs</code> 改成</p><p><code>serverURLs: https://xxxxxxxx.api.lncldglobal.com</code></p><p>其中xxxxx是我的App ID 的前八位，修改完后重新部署，我的问题就解决了</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>问题</tag>
+      
+      <tag>Hexo</tag>
+      
+      <tag>Valine</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>发布文章图片无法显示</title>
     <link href="/2024/07/29/2024-7-29-post1/"/>
     <url>/2024/07/29/2024-7-29-post1/</url>
